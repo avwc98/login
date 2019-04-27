@@ -12,3 +12,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.close_sesion{
+  background: #222d32;
+  border-radius: 10px;
+}
+
+.close_sesion_mobile{
+  background-color: #367fa9;
+  display: none;
+}
+
+@media only screen and (max-width: 800px){
+  .close_sesion_mobile{
+    display: block;
+    background-color: #367fa9;
+  }
+}

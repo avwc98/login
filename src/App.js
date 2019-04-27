@@ -29,7 +29,7 @@ class index extends Component {
 
 
     componentDidMount() {
-        swal('Se cargo correctamente la página', 'success');
+        swal("Aviso",'Se cargo correctamente la página', 'success');
         console.log("Funcion que inicia todos los datos desde que carga una página");
     }
 
@@ -54,8 +54,9 @@ class index extends Component {
                     </div>
                     <div className="user-panel">
                         <div className="pull-left image">
-                        <img src="" className="rounded-circle" />
+                            <img src="" className="rounded-circle" alt=""/>
                         </div>
+                        <div className="pull-left info"></div>
                     </div>
                     <div className="header"> </div>
                 </nav>

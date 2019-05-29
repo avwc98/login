@@ -953,10 +953,6 @@ html,body {
     height: 100%;
 }
 
-.my-login-page {
-    font-size: 14px;
-}
-
 .my-login-page .brand {
     background-color: white;
     width: 200px;
@@ -1099,6 +1095,11 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
     zoom:1; /* hasLayout ie7 trigger */
 }
 
+.my-login-page {
+    background: url('../../img/fondo_login.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .nav-link {
 
